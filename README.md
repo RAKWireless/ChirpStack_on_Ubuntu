@@ -4,5 +4,5 @@ This script will install and config ChirpStack Server on Ubuntu.
 
 sudo apt install git  
 git clone https://github.com/RAKWireless/ChirpStack_on_Ubuntu  
-cd /install_chirpstack_on_ubuntu  
+cd ChirpStack_on_Ubuntu  
 sudo ./install.sh  
