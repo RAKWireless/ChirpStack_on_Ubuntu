@@ -966,7 +966,7 @@ COPY public.multicast_group (id, created_at, updated_at, name, service_profile_i
 --
 
 COPY public.network_server (id, created_at, updated_at, name, server, ca_cert, tls_cert, tls_key, routing_profile_ca_cert, routing_profile_tls_cert, routing_profile_tls_key, gateway_discovery_enabled, gateway_discovery_interval, gateway_discovery_tx_frequency, gateway_discovery_dr) FROM stdin;
-1	2020-03-12 03:51:55.851734+00	2020-03-12 03:51:55.851734+00	build_in_ns	localhost:8000							f	0	0	0
+1	2020-03-12 03:51:55.851734+00	2020-03-12 03:51:55.851734+00	build_in_ns	127.0.0.1:8000							f	0	0	0
 \.
 
 
